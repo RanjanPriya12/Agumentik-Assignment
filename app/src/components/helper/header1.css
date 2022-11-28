@@ -1,0 +1,227 @@
+/*==================header1 Styling================*/
+
+.header1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.propertySearch{
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    z-index: -10;
+}
+
+.button{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#save{
+    background-color: rgb(243, 243, 244);
+}
+
+#save:hover{
+    background-color:rgb(205, 205, 209) ;
+}
+
+#like{
+    background-color: rgb(234,76,137);
+    color: white;
+}
+
+
+
+
+
+
+/*==================header2 Styling================*/
+
+.header2{
+    background-color: rgb(206,208,209);
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2 .leftPart{
+    width: 68%;
+    height: 60%;
+}
+
+.miniNav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.miniNav>li{
+    font-size: 12px;
+}
+
+.child1{
+    padding-bottom: 20px;
+}
+
+.child1 h2{
+    width: 80%;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
+    padding-right: 10rem;
+    color: rgb(248, 76, 76);
+}
+
+.child1 p{
+    width: 80%;
+    font-size: 8px;
+    margin: auto;
+    padding: 10px;
+    padding-right: 10rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+.inputSection{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 2px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+
+.inputSection>select{
+    border: none;
+    font-size: 10px;
+    outline: none;
+}
+
+
+
+
+/*=========================Property Container Styling=======================*/
+
+
+.child2{
+    background-color: white;
+    width: 100%;
+}
+
+.child2 h5{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.child2 p{
+    text-align: center;
+    font-size: 10px;
+    padding: 8px;
+}
+
+
+.propertyContainer{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
+
+.propertyItem{
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.propertyImage>img{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.rigthPart{
+    width: 30%;
+}
+
+
+.child3{
+    padding-bottom: 20px;
+}
+
+.child3 h2{
+    width: 90%;
+    font-size: 14px;
+    margin: auto;
+    padding: 20px;
+    color: rgb(248, 76, 76);
+}
+
+.child3 p{
+    width: 80%;
+    font-size: 8px;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.child3 h4{
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+}
+
+
+
+/*================================styling of details============================*/
+
+
+.details{
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(78, 76, 76);
+}
+
+.details p{
+    padding-top: 8px;
+    letter-spacing: .5px;
+}
+
+.detailDiv p{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(78, 76, 76);
+}
+
+.detailDiv p .pink{
+    color: rgb(234,76,137);
+}
+
+
