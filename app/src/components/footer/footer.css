@@ -1,0 +1,30 @@
+.footer{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.footer>div{
+    width: 25%;
+}
+
+.imageContainer>img{
+    border-radius: 50%;
+    width: 25px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.footerCol h3{
+    line-height: 15px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.footerCol p{
+    line-height: 35px;
+    cursor: pointer;
+}
